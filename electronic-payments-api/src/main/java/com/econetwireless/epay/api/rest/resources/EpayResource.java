@@ -20,7 +20,7 @@ public class EpayResource {
     @Autowired
     private EpayRequestProcessor epayRequestProcessor;
 
-
+    @Autowired
     private ReportingProcessor reportingProcessor;
 
     @GetMapping(value = "enquiries/{partnerCode}/balances/{mobileNumber}",
