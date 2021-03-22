@@ -19,4 +19,7 @@ Corrected this(super) to super().
 12.	Marked directory electronic-payments-business as generated source root. This will generate java classes from the wsdl.
 13.	Created test class to validate partner code. The class checks if partner code is null or empty.
 14.	Created test class for ReportingService. This test will check if the service is running. It also checks if the service is not returning null. The test also test if service is returning required data type of List i.e List has property size()
-15.	Test method shouldReturnStatusOkIfRequestsAreMoreThanOne()in EpayResourceIT giving error 415 due to content type 
+15.	Start web service from the file IntelligentNetworkPublisher.java
+16.	Start jetty save using command mvn jetty:run
+17.	Test method shouldReturnStatusOkIfRequestsAreMoreThanOne()in EpayResourceIT giving error 415 due to content type 
+
