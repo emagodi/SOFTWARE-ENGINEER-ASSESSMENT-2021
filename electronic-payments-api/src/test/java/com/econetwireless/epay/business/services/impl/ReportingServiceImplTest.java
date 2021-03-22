@@ -18,7 +18,7 @@ public class ReportingServiceImplTest {
 
         List<SubscriberRequest> requests = reportingService.findSubscriberRequestsByPartnerCode(partnerCode);
         //Test If Service Is Working
-        //Test If Service is not Return Null
+        //Test If Service is not Returning Null
         Assert.assertNotNull(requests);
         //Test If Service is returning Required Data Type of List ie List has property size()
         Assert.assertTrue(requests.size()>=0);
